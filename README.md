@@ -12,9 +12,7 @@ This is a responsive and accessible frontend implementation of a **Buy One Get O
 
 ## 📸 Screenshot
 
-> Replace `screenshot.png` with your actual screenshot file in the repo.
-
-![Screenshot](<img width="1422" alt="Screenshot 2025-06-01 at 3 41 44 AM" src="https://github.com/user-attachments/assets/c9566582-3a02-4d15-b6c5-1291782e9331" />)
+<img width="1422" alt="Screenshot 2025-06-01 at 3 41 44 AM" src="https://github.com/user-attachments/assets/c9566582-3a02-4d15-b6c5-1291782e9331" />
 
 ---
 
