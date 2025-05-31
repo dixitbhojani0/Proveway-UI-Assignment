@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunshine Bliss - Product Selection">
+    <title>Sunshine Bliss - Product Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">YAY! It's BOGO</h1>
+        </header>
+
+        <main>
+            <form action="javascript:void(0);">
+                <div class="product-boxes" role="radiogroup">
+                    <!-- First Box -->
+                    <div class="product-box" role="radio" data-units="1" data-price="10.00" data-original="24.00">
+                        <input type="radio" id="unit1" name="product-option" value="unit-1" class="radio-check hidden">
+    
+                        <div class="box-header flex-100">
+                            <div class="custom-radio-check flex-5">
+                                <label for="unit1" class="custom-radio-label"></label>
+                            </div>
+                            <div class="box-header-data flex-grow-1">
+                                <div class="box-sub-wrapper flex-grow-1">
+                                    <div class="unit-data">
+                                        <div class="units">1 Unit</div>
+                                        <div class="discount-tag">10% Off</div>
+                                    </div>
+                                    <div class="text">Standard Price</div>
+                                </div>
+                                <div class="price-data flex-25">
+                                    <div class="price">$10.00 USD</div>
+                                    <div class="original-price">$24.00 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-content flex-100">
+                            <div class="flex-5"></div>
+                            <div class="size-color-container flex-grow-1">
+                                <div class="size-color-row-labels">
+                                    <div class="flex-4"></div>
+                                    <div class="size-label flex-grow-1">Size</div>
+                                    <div class="color-label flex-grow-1">Colour</div>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#1</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit1-size1" id="unit1-size1">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit1-color1" id="unit1-color1">
+                                        <option value="">Select Color</option>
+                                        <option value="Black" selected>Black</option>
+                                        <option value="White">White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#2</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit1-size2" id="unit1-size2">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit1-color2" id="unit1-color2">
+                                        <option value="">Select Color</option>
+                                        <option value="Black">Black</option>
+                                        <option value="White" selected>White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="flex-25"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Second Box (Most Popular) - Expanded by default  -->
+                    <div class="product-box popular active" role="radio" data-units="2" data-price="18.00" data-original="24.00">
+                        <div class="popular-tag-banner">
+                            MOST POPULAR
+                        </div>
+                        <input type="radio" id="unit2" name="product-option" class="radio-check hidden" value="unit-2" checked>
+                        <div class="box-header flex-100">
+                            <div class="custom-radio-check flex-5">
+                                <label for="unit2" class="custom-radio-label"></label>
+                            </div>
+                            <div class="box-header-data flex-grow-1">
+                                <div class="box-sub-wrapper flex-grow-1">
+                                    <div class="unit-data">
+                                        <div class="units">2 Unit</div>
+                                        <div class="discount-tag">20% Off</div>
+                                    </div>
+                                </div>
+                                <div class="price-data flex-25">
+                                    <div class="price">$18.00 USD</div>
+                                    <div class="original-price">$24.00 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-content flex-100">
+                            <div class="flex-5"></div>
+                            <div class="size-color-container flex-grow-1">
+                                <div class="size-color-row-labels">
+                                    <div class="flex-4"></div>
+                                    <div class="size-label flex-grow-1">Size</div>
+                                    <div class="color-label flex-grow-1">Colour</div>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#1</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit2-size1" id="unit2-size1">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit2-color1" id="unit2-color1">
+                                        <option value="">Select Color</option>
+                                        <option value="Black" selected>Black</option>
+                                        <option value="White">White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#2</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit2-size2" id="unit2-size2">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit2-color2" id="unit2-color2">
+                                        <option value="">Select Color</option>
+                                        <option value="Black">Black</option>
+                                        <option value="White" selected>White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="flex-25"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Third Box -->
+                    <div class="product-box" role="radio" data-units="3" data-price="24.00" data-original="24.00">
+                        <input type="radio" id="unit3" name="product-option" class="radio-check" value="unit-3">
+                        <div class="box-header flex-100">
+                            <div class="custom-radio-check flex-5">
+                                <label for="unit3" class="custom-radio-label"></label>
+                            </div>
+                            <div class="box-header-data flex-grow-1">
+                                <div class="box-sub-wrapper flex-grow-1">
+                                    <div class="unit-data">
+                                        <div class="units">3 Unit</div>
+                                        <div class="discount-tag">30% Off</div>
+                                    </div>
+                                </div>
+                                <div class="price-data flex-25">
+                                    <div class="price">$24.00 USD</div>
+                                    <div class="original-price">$24.00 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-content flex-100">
+                            <div class="flex-5"></div>
+                            <div class="size-color-container flex-grow-1">
+                                <div class="size-color-row-labels">
+                                    <div class="flex-4"></div>
+                                    <div class="size-label flex-grow-1">Size</div>
+                                    <div class="color-label flex-grow-1">Colour</div>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#1</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit3-size1" id="unit3-size1">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit3-color1" id="unit3-color1">
+                                        <option value="">Select Color</option>
+                                        <option value="Black" selected>Black</option>
+                                        <option value="White">White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                                <div class="size-color-row">
+                                    <div class="size-number flex-4">#2</div>
+                                    <select class="option-dropdown size-dropdown flex-grow-1" name="unit3-size2" id="unit3-size2">
+                                        <option value="">Select Size</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                    <select class="option-dropdown color-dropdown flex-grow-1" name="unit3-color2" id="unit3-color2">
+                                        <option value="">Select Color</option>
+                                        <option value="Black">Black</option>
+                                        <option value="White" selected>White</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="flex-25"></div>
+                        </div>
+                    </div>
+    
+                    <div class="total-amount">
+                        <div class="delivery">Free Delivery</div>
+                        <div class="total">Total: <span id="total-price">$18.00</span> USD</div>
+                    </div>
+    
+                    <div>
+                        <button class="add-to-cart"><span class="plus-icon">+</span> Add to Cart</button>
+                        <div class="copyright">© Powered by Pumper</div>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer></footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
